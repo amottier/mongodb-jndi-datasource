@@ -4,10 +4,11 @@
 	<groupId>org.mongodb.datasource</groupId>
 	<artifactId>mongodb-jndi-datasource</artifactId>
 	<name>JNDI pooled datasource for MongoDB</name>
-	<version>3.0</version>
+	<version>3.1.0</version>
 	
 	<properties>
-		<mongo.client.version>3.0.0</mongo.client.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<mongo.client.version>3.2.2</mongo.client.version>
 	</properties>
 	
 	<dependencies>
@@ -22,7 +23,7 @@
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.1</version>
+				<version>3.5.1</version>
 				<configuration>
 					<encoding>UTF-8</encoding>
 					<source>1.7</source>
